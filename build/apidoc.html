@@ -1,0 +1,148 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/phonegap/phonegap-plugin-barcodescanner#readme"
+
+    >phonegap-plugin-barcodescanner (v6.0.6)</a>
+</h1>
+<h4>You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap-plugin-barcodescanner">module phonegap-plugin-barcodescanner</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap-plugin-barcodescanner.</span>cordova</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap-plugin-barcodescanner.cordova">module phonegap-plugin-barcodescanner.cordova</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap-plugin-barcodescanner.cordova.require">
+            function <span class="apidocSignatureSpan">phonegap-plugin-barcodescanner.cordova.</span>require
+            <span class="apidocSignatureSpan">(moduleId)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap-plugin-barcodescanner.cordova.</span>required</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap-plugin-barcodescanner" id="apidoc.module.phonegap-plugin-barcodescanner">module phonegap-plugin-barcodescanner</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap-plugin-barcodescanner.cordova" id="apidoc.module.phonegap-plugin-barcodescanner.cordova">module phonegap-plugin-barcodescanner.cordova</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap-plugin-barcodescanner.cordova.require" id="apidoc.element.phonegap-plugin-barcodescanner.cordova.require">
+        function <span class="apidocSignatureSpan">phonegap-plugin-barcodescanner.cordova.</span>require
+        <span class="apidocSignatureSpan">(moduleId)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">require = function (moduleId) {
+    // define a default function if it doesn&#x27;t exist
+    if (!cordova.required[moduleId]) {
+        cordova.required[moduleId] = function() {};
+    }
+    // create a new module mapping between the module Id and cordova.required.
+    return new ModuleMap(moduleId);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
+ *
+ * Copyright (c) Matt Kane 2010
+ * Copyright (c) 2011, IBM Corporation
+ */
+
+
+var exec = cordova.<span class="apidocCodeKeywordSpan">require</span>(&#x22;cordova/exec&#x22;);
+
+var scanInProgress = false;
+
+/**
+ * Constructor.
+ *
+ * @returns {BarcodeScanner}
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
